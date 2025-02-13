@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Gospel Believer's Children Center</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar (Same as index.html) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="Logo" width="50"> Gospel Believer's Children Center
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="donate.html">Donate</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="container my-5">
+    <h2 class="mb-4">Contact Us</h2>
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <form id="contactForm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" placeholder="Enter subject" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-purple w-100">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="card bg-light p-4">
+          <h4 class="mb-4">Get in Touch</h4>
+          <p><strong>Address:</strong><br>
+          40967, 00100<br>
+          Nairobi, Kenya</p>
+          <p><strong>Phone:</strong><br>
+          +254 721 408 832</p>
+          <p><strong>Email:</strong><br>
+          info@gospelbelievers.org</p>
+          <p><strong>Working Hours:</strong><br>
+          Monday - Friday: 8:00 AM - 5:00 PM</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Google Map -->
+    <div class="row mt-5">
+      <div class="col-12">
+        <h4 class="text-center mb-4">Our Location</h4>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31913.27719538742!2d35.12839173476564!3d1.0411212000000125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17822b94cb6cbfab%3A0xdbc1d982a78f53b!2sSitatunga!5e0!3m2!1sen!2ske!4v1739295653280!5m2!1sen!2ske"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Same as index.html) -->
+  <footer class="bg-purple text-white text-center py-4">
+    <p>&copy; 2023 Gospel Believer's Children Center. All rights reserved.</p>
+    <p>
+      <a href="#" class="text-white" data-bs-toggle="modal" data-bs-target="#policyModal">Privacy Policy</a> | 
+      <a href="#" class="text-white" data-bs-toggle="modal" data-bs-target="#policyModal">Terms of Service</a>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Privacy Policy and Terms of Service Modal -->
+<div class="modal fade" id="policyModal" tabindex="-1" aria-labelledby="policyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="policyModalLabel">Privacy Policy & Terms of Service</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Privacy Policy -->
+          <h5>Privacy Policy</h5>
+          <p>At Gospel Believer's Children Center, we are committed to protecting your privacy. This policy outlines how we collect, use, and safeguard your personal information.</p>
+          <ul>
+            <li><strong>Personal Information:</strong> Name, email address, and payment details when you make a donation.</li>
+            <li><strong>Usage Data:</strong> Information about how you interact with our website (e.g., IP address, browser type).</li>
+          </ul>
+          <p>We use industry-standard encryption and security measures to protect your information. Your data is never shared with third parties without your consent.</p>
+  
+          <!-- Terms of Service -->
+          <h5>Terms of Service</h5>
+          <p>By using our website, you agree to the following terms and conditions:</p>
+          <ul>
+            <li>You must be at least 18 years old to make a donation.</li>
+            <li>All donations are final and non-refundable.</li>
+            <li>We reserve the right to update these terms at any time.</li>
+          </ul>
+          <p>If you have any questions about our policies, please <a href="contact.html">contact us</a>.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-purple" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
